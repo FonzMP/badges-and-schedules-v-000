@@ -23,13 +23,3 @@ def assign_rooms(array)
   end
   return room_array
 end
-
-def printer
-  counter = 0
-  batch_badge_creator.each do |person|
-    puts person
-  end
-  assign_rooms.each do |person|
-    puts person
-  end
-end
