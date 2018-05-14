@@ -25,5 +25,7 @@ def assign_rooms(array)
 end
 
 def printer
-  
+  counter = 0
+  puts badge_maker[counter]
+  counter += 1
 end
