@@ -26,7 +26,5 @@ end
 
 def printer
   counter = 0
-  badge_maker
-  puts badge_maker[counter]
-  counter += 1
+  badge_maker.each do |person|
 end
