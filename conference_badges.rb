@@ -29,4 +29,8 @@ def printer(array)
   array_for_badge.each do |name|
     puts name
   end
+  array_for_room = assign_rooms(array)
+  array_for_room.each do |person|
+    puts person
+  end
 end
