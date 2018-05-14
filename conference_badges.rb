@@ -24,8 +24,4 @@ def assign_rooms(array)
   return room_array
 end
 
-def printer
-  counter = 0
-  badge_maker.each do |person|
-    puts badge_maker(person)
-end
+
