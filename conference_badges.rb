@@ -27,5 +27,8 @@ end
 def printer
   counter = 0
   badge_length = batch_badge_creator.length
-  puts badge_length
+  while counter < badge_length
+    puts batch_badge_creator[counter]
+    counter += 1
+  end
 end
