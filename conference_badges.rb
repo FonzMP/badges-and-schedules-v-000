@@ -34,7 +34,7 @@ def printer
   counter_two = 0
   room_length = assign_rooms.length
   while counter_two < room_length
-    puts assign_rooms[counter)two]
+    puts assign_rooms[counter_two]
     counter_two += 1
   end
 end
