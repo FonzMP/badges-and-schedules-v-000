@@ -31,5 +31,5 @@ def printer
   end
   assign_rooms.each do |person|
     puts person
-
+  end
 end
