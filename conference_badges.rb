@@ -31,8 +31,10 @@ def printer
     puts batch_badge_creator[counter]
     counter += 1
   end
+  counter_two = 0
   room_length = assign_rooms.length
   while counter_two < room_length
     puts assign_rooms[counter)two]
     counter_two += 1
+  end
 end
