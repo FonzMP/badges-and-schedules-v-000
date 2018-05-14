@@ -25,5 +25,6 @@ def assign_rooms(array)
 end
 
 def printer
-
+  counter = 0
+  badge_length = batch_badge_creator.length
 end
