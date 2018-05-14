@@ -25,16 +25,7 @@ def assign_rooms(array)
 end
 
 def printer
-  counter = 0
-  badge_length = batch_badge_creator.length
-  while counter < badge_length
-    puts batch_badge_creator[counter]
-    counter += 1
-  end
-  counter_two = 0
-  room_length = assign_rooms.length
-  while counter_two < room_length
-    puts assign_rooms[counter_two]
-    counter_two += 1
+  batch_badge_creator.each do |name|
+    puts name
   end
 end
