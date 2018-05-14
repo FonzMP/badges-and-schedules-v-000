@@ -25,5 +25,6 @@ def assign_rooms(array)
 end
 
 def printer
-
+  counter = 0
+  while counter < array.length
 end
